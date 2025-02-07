@@ -1,0 +1,13 @@
+// Calcul et affichage de factoriel N à saisir au clavier 
+Algorithme Calcul de factoriel
+Variables 
+    n, i, f : entiers ;
+Début
+    Écrire ("Veuillez entrer un nombre entier n : ");
+    Lire (n);
+    f <- 1;
+    Pour (i <- 1 ; i <= N ; i <- i + 1)
+        f <- f * i;
+    FinPour 
+	 Écrire ("n! = ", f);
+Fin

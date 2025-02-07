@@ -1,0 +1,31 @@
+// Résolution de l'équation de seconde degrée'
+Algorithme Équation de seconde degree
+Variables 
+    a, b, c, d: réels;
+    x, x0, x1, x2: réels;
+Début
+    Écrire ("Veuillez entrer la valeur de a:");
+    Lire (a);
+	Écrire ("Veuillez entrer la valeur de b:");
+    Lire (b);
+	Écrire ("Veuillez entrer la valeur de c:");
+    Lire (c);
+    d <- ((b*b) - (4*a*c)); // Calcul de déterminant
+    Si (a=0) Alors 
+        x <- (-c)/b;
+        Écrire (" Cette équation admet une solution x = ", x);
+        Sinon Si (d=0) Alors 
+                        x0 <- (-b)/(2*a);
+                        Écrire (" Cette équation admet une racine double x= ", x0);
+                        Sinon Si (d>0) Alors 
+                                        x1 <- (-b-sqrt(d))/(2*a);
+                                        x2 <- (- b+sqrt(d))/(2*a);
+                                        Écrire (" Cette équation admet deux solutions distinctes x1 =", x1, "et x2 =", x2);
+                                        Sinon 
+                                        x1 <- (-b-sqrt(d))/(2*a);
+                                        x2 <- (- b+sqrt(d))/(2*a);
+                                        Écrire (" Cette équation admet deux racines complexe x1 = ", x1, "- i", x2, " et x2 =", x1, "+ i", x2);
+                                     FinSi  
+                   FinSi 
+    FinSi                      
+Fin

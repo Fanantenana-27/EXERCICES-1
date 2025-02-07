@@ -1,0 +1,13 @@
+// Algorithme qui affiche 1 jusqu'à n où n est saisi au clavier 
+Algorithme  Affichage des nombres entre 1 a n
+Variables 
+    i, n, k: entiers ;
+Début
+    Écrire ("Entrez un nombre entier n ");
+    Lire (n);
+    k <- 0;
+    Pour (i<-1,i<=n,i<-i+1)
+        k <- k + i;
+        Écrire (" ", k);
+    FinPour   
+Fin

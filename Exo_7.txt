@@ -1,0 +1,21 @@
+/* Algorithme qui demande à l'utilisateur trois valeurs 
+et affiche leur maximum */'
+Algorithme Maximum entre a, b et c
+Variables 
+    a, b, c, max : entiers
+Début
+    Écrire ("Entrez un nombre entier a:");
+    Lire (a);
+    max <- a;
+    Écrire ("Entrez un nombre entier b:");
+    Lire (b);
+	 Si (b> max) Alors 
+	     max <- b;
+	 FinSi 
+	 Écrire ("Entrez un nombre entier c:");
+    Lire (c);
+    Si (c>max) Alors 
+        max <- c;
+    FinSi 
+    Écrire (" Maximum entre a, b et c  est :", max);    
+Fin

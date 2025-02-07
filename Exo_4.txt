@@ -1,0 +1,14 @@
+/* Algorithme qui demande à l'utilisateur deux notes 
+et affiche leur somme et leur moyenne */
+Algorithme Moyenne de deux notes
+Variables 
+    note1, note2, somme, moyenne: réels;
+Début
+    Écrire ("Veuillez entrer la première note:");
+    Lire (note1);
+    Écrire ("Veuillez entrer la deuxième  note:");
+    Lire (note2);
+    somme <- note1 + note2;
+    moyenne <- somme / 2;
+    Écrire ("La somme des notes est :", Somme, "leur moyenne est :", moyenne );
+Fin

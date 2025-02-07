@@ -1,0 +1,13 @@
+/* Algorithme qui affiche les nombres paire 
+compris entre 1 à n où n est saisi au clavier */
+Algorithme Nombre paire entre 1 a n
+Variables 
+    i, n : entiers;
+Début
+    Écrire (" Entrez un nombre entier n :");
+    Lire (n);
+    Pour (i <- 1;i<= n;i<-i+1)
+         i <- i + 1;
+        Écrire (" ", i);
+	FinPour 
+Fin

@@ -1,0 +1,17 @@
+/* Algorithme qui permet d'afficher si le produit de deux 
+nombre est positif ou bien négatif */
+Algorithme Signe_de_produit_de_deux_nombre
+Variables
+    x : entier ;
+    y : entier ;
+Début
+    Écrire ("Veuillez entrer un nombre entier x :");
+    Lire (x);
+    Écrire ("Veuillez entrer un nombre entier y :");
+    Lire (y);
+    Si (((x>0) ET (y>0)) OU ((x<0) ET (y<0))) Alors 
+        Écrire ("x * y est positif ");
+        Sinon 
+        Écrire ("x * y est négatif ");
+	FinSi 
+Fin

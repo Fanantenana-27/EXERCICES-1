@@ -1,0 +1,17 @@
+/* Algorithme qui permet d'échanger les valeurs 
+des deux variables a et b */
+Algorithme Changement des valeurs
+Variables
+    a : entier ;
+    b : entier ;
+    c : entier ;
+Début
+    Écrire ("Veuillez entrer un nombre entier a:");
+    Lire (a);
+    Écrire ("Veuillez entrer un nombre entier b:");
+    Lire (b);
+    c <- a;
+    a <- b;
+    b <- c;
+    Écrire (" a= ", a, "b=", b, "c", c);
+Fin

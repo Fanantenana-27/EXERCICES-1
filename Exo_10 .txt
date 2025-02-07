@@ -1,0 +1,15 @@
+// Affichage des diviseurs d'un entier n à saisir au clavier 
+Algorithme Diviseur d'un entier 
+Variables 
+    i, n : entiers '
+Début
+    Écrire ("Entrez un nombre entier n : ");
+    Lire (n);
+    i <- 1
+    TantQue (i<=n)
+        Si ( n%i = 0) Alors 
+            Écrire (" Le(s) diviseur de n est : ", i);
+        FinSi 
+        i <- i + 1;
+    FinTantQue 
+Fin
