@@ -1,0 +1,16 @@
+// Calcul et affichage de la somme s = 1/1! + 1/2! + 1/3! +... + 1/n!
+Algorithme Calcul de la somme s = 1/1! + 1/2! + 1/3! +... + 1/n!
+Variables 
+    n, i, f:entiers ;
+    s : réel ;
+Début
+    Écrire ("Veuillez entrer un nombre entier n :");
+    Lire (n);
+	 f <- 1;
+	 s <- 0;
+	 Pour (i<-1;i<=n;i<-i+1)
+	     f <- f * i;
+	     s <- s + 1/f;
+	 FinPour 
+	 Écrire ("La somme s =", s);   
+Fin
