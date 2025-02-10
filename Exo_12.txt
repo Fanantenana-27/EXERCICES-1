@@ -8,6 +8,6 @@ Début
     somme = 0;
     Pour ( i <- 1; i <= n ; i <- i + 1)
         somme = somme + i;
-	 FinPour 
-	 Écrire (" La somme de 1 jusqu'à ", n, "est :", somme );
+    FinPour 
+    Écrire (" La somme de 1 jusqu'à ", n, "est :", somme );
 Fin
