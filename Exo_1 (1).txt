@@ -1,6 +1,6 @@
 // Algorithme qui demande à l'utilisateur un nombre et l'informe ensuite s'il est positif ou négatif 
 Algorithme Nombre_positif_ou _négatif 
-Variables 
+Variable 
     n : entier ;
 Début 
     Écrire ("Veuillez entrer un nombre entier n :");
