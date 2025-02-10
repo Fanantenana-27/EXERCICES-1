@@ -13,5 +13,5 @@ Début
         Écrire ("x * y est positif ");
         Sinon 
         Écrire ("x * y est négatif ");
-	FinSi 
+    FinSi 
 Fin
