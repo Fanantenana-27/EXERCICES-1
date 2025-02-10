@@ -1,0 +1,13 @@
+// Calcul et affichage de multiplication 1*2*3*...*n où n est saisi au clavier 
+Algorithme Calcul de multiplication 1*2*3*...*n
+Variables 
+    n, i, produit : entiers; 
+Début
+	Écrire (" Veuillez entrer un nombre entier n : ");
+	Lire (n);
+	produit <- 1;
+	Pour (i<-1;i<=n;i<-i+1)
+	    produit <- produit * i;
+	FinPour 
+	Écrire ("Le produit de 1 jusqu'à ", n, "est : ", produit );
+Fin
