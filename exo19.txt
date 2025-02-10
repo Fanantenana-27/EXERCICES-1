@@ -1,0 +1,28 @@
+// Affiche si les deux nombres à et b sont premiers entre eux ou non
+Algorithme Nombres premiers entre eux 
+Variables 
+    a, b, rest, dividande, diviseur, pgcd;
+Début
+    Écrire ("Veuillez entrer un nombre entier a:");
+    Lire (a);
+    Écrire ("Veuillez entrer un nombre entier b:");
+    Lire (b);
+    Si (a>b) Alors 
+        a <- dividande ;
+        b <- diviseur ;
+        Sinon 
+        b <- dividande ;
+        a <- diviseur ;
+    FinSi 
+    Faire 
+    rest <- dividande % diviseur ;
+        dividande <- diviseur ;
+        diviseur <- rest;
+    TantQue (rest <> 0);
+    Écrire ("Le pgcd (a, b)=", dividande );
+    Si (pgcd=1) Alors 
+        Écrire ("a et b sont premiers entre eux ");
+        Sinon 
+        Écrire ("a et b ne sont pas premiers entre eux ");
+    FinSi    
+Fin
