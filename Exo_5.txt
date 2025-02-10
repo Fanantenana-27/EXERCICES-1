@@ -6,9 +6,9 @@ Variables
 Début
     Écrire ("Veuillez entrer la valeur de a:");
     Lire (a);
-	Écrire ("Veuillez entrer la valeur de b:");
+    Écrire ("Veuillez entrer la valeur de b:");
     Lire (b);
-	Écrire ("Veuillez entrer la valeur de c:");
+    Écrire ("Veuillez entrer la valeur de c:");
     Lire (c);
     d <- ((b*b) - (4*a*c)); // Calcul de déterminant
     Si (a=0) Alors 
@@ -25,7 +25,7 @@ Début
                                         x1 <- (-b-sqrt(d))/(2*a);
                                         x2 <- (- b+sqrt(d))/(2*a);
                                         Écrire (" Cette équation admet deux racines complexe x1 = ", x1, "- i", x2, " et x2 =", x1, "+ i", x2);
-                                     FinSi  
-                   FinSi 
+                              FinSi  
+               FinSi 
     FinSi                      
 Fin
