@@ -1,8 +1,8 @@
 /* Algorithme qui demande à l'utilisateur trois valeurs 
-et affiche leur maximum */'
+et affiche leur maximum */
 Algorithme Maximum entre a, b et c
 Variables 
-    a, b, c, max : entiers
+    a, b, c, max : entiers;
 Début
     Écrire ("Entrez un nombre entier a:");
     Lire (a);
