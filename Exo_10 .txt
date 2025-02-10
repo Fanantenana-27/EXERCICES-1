@@ -5,7 +5,7 @@ Variables
 Début
     Écrire ("Entrez un nombre entier n : ");
     Lire (n);
-    i <- 1
+    i <- 1;
     TantQue (i<=n)
         Si ( n%i = 0) Alors 
             Écrire (" Le(s) diviseur de n est : ", i);
