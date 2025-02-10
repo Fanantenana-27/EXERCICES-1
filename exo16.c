@@ -1,17 +1,16 @@
-// Calcul et affichage de la somme s=1!+2!+3!+...+n! où n est saisi au clavier
-#include <stdio.h>
-int main ()
-{
-    int i , n , f , s;
-    printf("Veuillez entrer un nombre entier n:");
-    scanf("%d",&n);
-    f = 1;
-    s = 0;
-    for (i=1;i<=n;i++)
-    {
-        f = f * i; // Calcul du factoriel
-        s = s + f; // Calcul de la somme
-    }
-    printf("La somme de s = %d \n",s);
-    return (0);
-}
+/* Calcul et affichage de la somme s = 1! + 2! + 3! +... + n !, 
+où n est saisi au clavier */
+Algorithme Calcul de la somme s = 1! + 2! + 3! +... + n !
+Variables 
+    i, n, f, s : entiers; 
+Début
+    Écrire ("Veuillez entrer un nombre entier n :");
+    Lire (n);
+    f <-  1;
+    s <- 0;
+    Pour ( i<-1,i<=n,i<-i+n)
+       f <- f * i;
+       s <- s + f;
+    FinPour 
+    Écrire ("La somme s = ", s);
+Fin
